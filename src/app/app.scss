@@ -1,3 +1,16 @@
+
+.content-md, .toolbar-background-md {
+  background-color: #5F7C8A;
+}
+
+.header-md {
+  background-color: #5F7C8A;
+
+  &::after {
+    background-image: none;
+  }
+}
+
 .loading {
     display: flex;
     flex-direction: column;

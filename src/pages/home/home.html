@@ -8,14 +8,11 @@
 </ion-header>
 
 <ion-content padding title="Alfraide">
-  <div class="loading">
+  <div class="loading" [navPush]="dashboardPage">
     <div class="loading-content">
       <div>
         <img src="assets/images/logo.svg">
         <h4>Loading ...</h4>
-        <button [navPush]="dashboardPage">
-        Pouet
-        </button>
       </div>
     </div>
   </div>
