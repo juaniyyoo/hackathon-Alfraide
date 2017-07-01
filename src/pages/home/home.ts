@@ -8,6 +8,7 @@ import { DashboardPage } from '../dashboard/dashboard';
   entryComponents:[ DashboardPage ]
 })
 export class HomePage {
+  public base64Image: string;
   dashboardPage = DashboardPage;
 
   constructor(public navCtrl: NavController) {

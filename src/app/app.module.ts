@@ -4,13 +4,13 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { ActionSheetController } from 'ionic-angular';
-import { Camera } from '@ionic-native/camera';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { DashboardPage } from '../pages/dashboard/dashboard';
 import { SettingsPage } from '../pages/settings/settings';
 import { ProductDetailsPage } from '../pages/product-details/product-details';
+import { RepairmanPage } from '../pages/repairman/repairman';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,8 @@ import { ProductDetailsPage } from '../pages/product-details/product-details';
     HomePage,
     DashboardPage,
     SettingsPage,
-    ProductDetailsPage
+    ProductDetailsPage,
+    RepairmanPage
   ],
   imports: [
     BrowserModule,
@@ -30,7 +31,8 @@ import { ProductDetailsPage } from '../pages/product-details/product-details';
     HomePage,
     DashboardPage,
     SettingsPage,
-    ProductDetailsPage
+    ProductDetailsPage,
+    RepairmanPage
   ],
   providers: [
     StatusBar,
@@ -39,5 +41,4 @@ import { ProductDetailsPage } from '../pages/product-details/product-details';
   ]
 })
 export class AppModule {
-  camera = Camera;
 }

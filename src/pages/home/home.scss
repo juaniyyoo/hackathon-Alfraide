@@ -4,6 +4,12 @@ page-home {
     .loading-content {
       h4 {
         text-align: center;
+        color: color($colors, dark);
+      }
+
+      img {
+        width: 200px;
+        height: 200px;
       }
     }
   }

@@ -18,69 +18,52 @@
 
 
 <ion-content padding>
-  <ion-grid>
-    <ion-row>
-      <ion-col col-12>
-        <ion-grid>
-          <ion-row>
-            <ion-col col-3>
-              <ion-icon name="information-circle"></ion-icon>
-            </ion-col>
-            <ion-col col-9>
-              <b>Garantie : </b> 3 ans chez Samsung
-            </ion-col>
-          </ion-row>
-        </ion-grid>
-      </ion-col>
-    </ion-row>
+  <ion-card>
 
-    <ion-row>
-      <ion-col col-12>
-        <ion-grid>
-          <ion-row>
-            <ion-col col-3>
-              <ion-icon name="warning"></ion-icon>
-            </ion-col>
-            <ion-col col-9>
-              <ion-list>
-                <p>
-                  Condensateur en surchauffe <br>
-                  Cable d'alimentation usé
-                </p>
-              </ion-list>
-            </ion-col>
-          </ion-row>
-        </ion-grid>
-      </ion-col>
-    </ion-row>
+    <img src="assets/images/logo-washer.png">
+    <ion-fab right top>
+      <button ion-fab class="alert alert-danger">
+        <ion-icon name="warning"></ion-icon>
+      </button>
+    </ion-fab>
 
-    <ion-row>
-      <ion-col col-12>
-        <ion-grid>
-          <ion-row>
-            <ion-col col-3>
-              <ion-icon name="chatbubbles" class="small"></ion-icon>
-            </ion-col>
-            <ion-col col-9>
-              <ion-slides pager loop="true" class="tips-slide">
-                <ion-slide>
-                  <p>A l'achat, baissez tout de suite la luminosité pour gagner en longévité.</p>
-                </ion-slide>
+    <ion-item>
+      <ion-icon name="information-circle" item-start large></ion-icon>
+      <h2>Garantie : </h2>
+      <p>3 ans chez Samsung</p>
+    </ion-item>
 
-                <ion-slide>
-                  <p>Mettez votre télévision dans un coin frais à l'abri de la température.</p>
-                </ion-slide>
+    <ion-item>
+      <ion-icon name="warning" item-left large ></ion-icon>
+      <h2>Risques</h2>
+      <p>Condensateur en surchauffe <br>
+      Cable d'alimentation usé</p>
+    </ion-item>
 
-              </ion-slides>
-            </ion-col>
-          </ion-row>
-        </ion-grid>
-      </ion-col>
-    </ion-row>
+    <ion-item>
+      <ion-icon name="chatbubbles" item-left large ></ion-icon>
 
-    <ion-row>
-      <ion-col col-12>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+      <ion-slides pager loop="true" class="tips-slide">
+        <ion-slide>
+          <p>A l'achat, baissez tout de suite la luminosité pour gagner en longévité.</p>
+        </ion-slide>
+
+        <ion-slide>
+          <p>Mettez votre télévision dans un coin frais à l'abri de la température.</p>
+        </ion-slide>
+
+      </ion-slides>
+    </ion-item>
+  </ion-card>
+
+  <ion-footer>
+  <ion-navbar>
+    <ion-buttons end [navPush]="repairmanPage">
+      <button ion-button icon-only color="royal">
+        Dépannage
+        <ion-icon name="build"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+  </ion-footer>
 </ion-content>

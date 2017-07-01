@@ -11,6 +11,11 @@ page-product-details {
     height: 150px;
   }
 
+  ion-card img {
+    background-color: color($colors, productsOne);
+    padding: 15px;
+  }
+
   ion-col ion-card img {
     margin: 15%;
     width: 70%;
@@ -27,6 +32,12 @@ page-product-details {
 
   ion-icon.small {
     font-size: 30px;
+  }
+
+  /* line 20, /Users/Nobodief/workspace/hackathon-Alfraide/src/pages/dashboard/dashboard.scss */
+  ion-fab button.alert.alert-danger {
+    background: red;
+    color: white;
   }
 
 }
