@@ -14,16 +14,15 @@
 
 
 <ion-content padding>
-    <div padding>
-        <ion-segment [(ngModel)]="users">
-            <ion-segment-button value="compte">
-                Compte
-            </ion-segment-button>
-            <ion-segment-button value="notification">
-                Notification
-            </ion-segment-button>
-        </ion-segment>
-    </div>
+    
+    <ion-segment [(ngModel)]="users">
+        <ion-segment-button value="compte">
+            Compte
+        </ion-segment-button>
+        <ion-segment-button value="notification">
+            Notification
+        </ion-segment-button>
+    </ion-segment>
 
     <div [ngSwitch]="users">
         <ion-card *ngSwitchCase="'compte'">
@@ -66,10 +65,11 @@
                 </ion-item>
             </ion-list>   
         </ion-card>
+        
         <ion-card *ngSwitchCase="'notification'">
             <ion-list>
                 <ion-item>
-                    <ion-title>Information utilisateur</ion-title>
+                    <ion-title>Notifications</ion-title>
                 </ion-item>
             </ion-list>
             <ion-list>
@@ -78,6 +78,24 @@
                     <ion-toggle checked="false"></ion-toggle>
                 </ion-item>
             </ion-list>      
+            <ion-list>
+                <ion-item>
+                    <ion-label> Activer les notifications</ion-label>
+                    <ion-toggle checked="false"></ion-toggle>
+                </ion-item>
+            </ion-list>
+            <ion-list>
+                <ion-item>
+                    <ion-label> Activer les notifications</ion-label>
+                    <ion-toggle checked="false"></ion-toggle>
+                </ion-item>
+            </ion-list>
+            <ion-list>
+                <ion-item>
+                    <ion-label> Activer les notifications</ion-label>
+                    <ion-toggle checked="false"></ion-toggle>
+                </ion-item>
+            </ion-list>
         </ion-card>
     </div>
 </ion-content>

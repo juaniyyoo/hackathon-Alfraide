@@ -23,4 +23,9 @@
 .loading-content {
   margin: auto; }
 
+/* line 29, /Users/Nobodief/workspace/hackathon-Alfraide/src/app/app.scss */
+page-settings .card-md {
+  margin: 30px 0 30px 0 !important;
+  width: 100% !important; }
+
 /*# sourceMappingURL=app.css.map */

@@ -14,6 +14,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class SettingsPage {
 
+  users: string = "compte";
+  isAndroid: boolean = false;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
