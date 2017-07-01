@@ -10,6 +10,21 @@ page-dashboard {
         border: 4px #5F7C8A dashed;
         background-color: #90A4AE;
       }
+    span.alert {
+        position: absolute;
+        background: black;
+        padding: 4px 5px 4px 5px;
+        border-radius: 50px;
+        right: 5px;top: 5px;
+    }
+    span.alert.alert-danger {
+        background: red;
+        color: white;
+    }
+    span.alert.alert-warning {
+        background: orange;
+        color: white;
+    }
     }
   }
 }
