@@ -63,7 +63,41 @@
                             <ion-option value="n64" selected>Homme</ion-option>
                         </ion-select>
                 </ion-item>
-            </ion-list>   
+            </ion-list> 
+        </ion-card>
+        
+        <ion-card *ngSwitchCase="'compte'">
+            <ion-list>
+                <ion-item>
+                    <ion-title>Information du compte</ion-title>
+                </ion-item>
+            </ion-list>
+            <ion-list>
+                <ion-item>
+                    <ion-label>Compte</ion-label>
+                        <ion-select [(ngModel)]="sexe">
+                            <ion-option value="alissajoux" selected>Alissajoux</ion-option>
+                            <ion-option value="Aceline">Aceline</ion-option>
+                        </ion-select>
+                </ion-item>
+            </ion-list>
+            <ion-list>
+                <ion-item>
+                    <ion-label fixed>Email: </ion-label>
+                    <ion-input type="text" value="alissajoux@fabdunumerique.fr"></ion-input>
+                </ion-item>
+            </ion-list>
+            <ion-list>
+                <ion-item>
+                    <ion-label fixed>Téléphone : </ion-label>
+                    <ion-input type="text" value="+33 6 17 17 89 29"></ion-input>
+                </ion-item>
+            </ion-list>
+            <ion-list>
+                <ion-item>
+                    <button ion-button round color="danger" full (click)="doConfirm()">Supprimer le profil</button>
+                </ion-item>
+            </ion-list>
         </ion-card>
         
         <ion-card *ngSwitchCase="'notification'">
