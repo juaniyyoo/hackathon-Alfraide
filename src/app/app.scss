@@ -1,4 +1,14 @@
 
+.segment-md .segment-button.activated, .segment-md .segment-button.segment-activated,
+ {
+  color: color($colors, light);
+  background-color: rgba(255,255,255,0.2);
+}
+
+.segment-md .segment-button {
+  color: color($colors, light2);
+}
+
 .content-md, .toolbar-background-md {
   background-color: color($colors, primary);
 }
