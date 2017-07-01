@@ -26,12 +26,12 @@
   <ion-grid>
     <ion-row>
       <ion-col col-6>
-        <ion-card>
+        <ion-card [navPush]="productDetailsPage">
           <img src="assets/images/logo-tv.png"/>
         </ion-card>
       </ion-col>
       <ion-col col-6>
-        <ion-card>
+        <ion-card [navPush]="productDetailsPage">
           <img src="assets/images/logo-fridge.png"/>
         </ion-card>
       </ion-col>
@@ -39,12 +39,12 @@
 
     <ion-row>
       <ion-col col-6>
-        <ion-card>
+        <ion-card [navPush]="productDetailsPage">
           <img src="assets/images/logo-hoven.png"/>
         </ion-card>
       </ion-col>
       <ion-col col-6>
-        <ion-card>
+        <ion-card [navPush]="productDetailsPage">
           <img src="assets/images/logo-toaster.png"/>
         </ion-card>
       </ion-col>
@@ -52,12 +52,12 @@
 
     <ion-row>
       <ion-col col-6>
-        <ion-card class="disabled">
+        <ion-card [navPush]="productDetailsPage" class="disabled">
           <img src="assets/images/logo-washer.png"/>
         </ion-card>
       </ion-col>
       <ion-col col-6>
-        <ion-card class="disabled">
+        <ion-card [navPush]="productDetailsPage" class="disabled">
           <img src="assets/images/logo-printer.png"/>
         </ion-card>
       </ion-col>
@@ -65,13 +65,13 @@
 
     <ion-row>
       <ion-col col-6>
-        <ion-card class="disabled">
+        <ion-card [navPush]="productDetailsPage" class="disabled">
           <img src="assets/images/logo-microwave.png"/>
         </ion-card>
       </ion-col>
 
       <ion-col col-6>
-        <ion-card class="disabled">
+        <ion-card [navPush]="productDetailsPage" class="disabled">
           <img src="assets/images/logo-iron.png"/>
         </ion-card>
       </ion-col>
@@ -79,7 +79,7 @@
 
     <ion-row>
       <ion-col col-6>
-        <ion-card class="disabled">
+        <ion-card [navPush]="productDetailsPage" class="disabled">
           <img src="assets/images/logo-coffeemachine.png"/>
         </ion-card>
       </ion-col>

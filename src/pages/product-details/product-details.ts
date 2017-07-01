@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { SettingsPage } from '../settings/settings';
 
 /**
  * Generated class for the ProductDetailsPage page.
@@ -11,8 +12,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 @Component({
   selector: 'page-product-details',
   templateUrl: 'product-details.html',
+  entryComponents: [ SettingsPage ]
 })
 export class ProductDetailsPage {
+  settingsPage = SettingsPage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

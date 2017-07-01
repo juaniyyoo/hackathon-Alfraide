@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { SettingsPage } from '../settings/settings';
+import { ProductDetailsPage } from '../product-details/product-details';
 
 /**
  * Generated class for the DashboardPage page.
@@ -12,10 +13,12 @@ import { SettingsPage } from '../settings/settings';
 @Component({
   selector: 'page-dashboard',
   templateUrl: 'dashboard.html',
-  entryComponents: [ SettingsPage ]
+  entryComponents: [ SettingsPage, ProductDetailsPage ]
 })
 export class DashboardPage {
   settingsPage = SettingsPage;
+  productDetailsPage = ProductDetailsPage;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
