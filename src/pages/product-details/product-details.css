@@ -1,0 +1,30 @@
+/* line 2, /Users/Nobodief/workspace/hackathon-Alfraide/src/pages/product-details/product-details.scss */
+page-product-details .item-md {
+  background-color: transparent; }
+  /* line 5, /Users/Nobodief/workspace/hackathon-Alfraide/src/pages/product-details/product-details.scss */
+  page-product-details .item-md p {
+    color: #111; }
+
+/* line 10, /Users/Nobodief/workspace/hackathon-Alfraide/src/pages/product-details/product-details.scss */
+page-product-details .tips-slide {
+  height: 150px; }
+
+/* line 14, /Users/Nobodief/workspace/hackathon-Alfraide/src/pages/product-details/product-details.scss */
+page-product-details ion-col ion-card img {
+  margin: 15%;
+  width: 70%; }
+
+/* line 19, /Users/Nobodief/workspace/hackathon-Alfraide/src/pages/product-details/product-details.scss */
+page-product-details .list-md > .item-block:last-child ion-label, page-product-details .list-md > .item-block:last-child .item-inner, page-product-details .list-md > .item-wrapper:last-child ion-label, page-product-details .list-md > .item-wrapper:last-child .item-inner,
+page-product-details ion-label {
+  white-space: normal; }
+
+/* line 24, /Users/Nobodief/workspace/hackathon-Alfraide/src/pages/product-details/product-details.scss */
+page-product-details ion-icon {
+  font-size: 60px; }
+
+/* line 28, /Users/Nobodief/workspace/hackathon-Alfraide/src/pages/product-details/product-details.scss */
+page-product-details ion-icon.small {
+  font-size: 30px; }
+
+/*# sourceMappingURL=product-details.css.map */

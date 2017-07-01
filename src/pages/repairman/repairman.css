@@ -1,0 +1,27 @@
+/* line 2, /Users/Nobodief/workspace/hackathon-Alfraide/src/pages/repairman/repairman.scss */
+page-repairman ion-icon {
+  font-size: 40px; }
+
+/* line 6, /Users/Nobodief/workspace/hackathon-Alfraide/src/pages/repairman/repairman.scss */
+page-repairman ion-footer {
+  border: none;
+  text-align: right;
+  color: #333;
+  font-size: 1.2em;
+  padding: 10px; }
+
+/* line 15, /Users/Nobodief/workspace/hackathon-Alfraide/src/pages/repairman/repairman.scss */
+page-repairman .phone {
+  position: absolute;
+  right: 11px;
+  top: 10px;
+  background-color: green;
+  padding: 2px;
+  color: white;
+  width: 25px;
+  height: 25px; }
+  /* line 25, /Users/Nobodief/workspace/hackathon-Alfraide/src/pages/repairman/repairman.scss */
+  page-repairman .phone ion-icon {
+    font-size: 20px; }
+
+/*# sourceMappingURL=repairman.css.map */
