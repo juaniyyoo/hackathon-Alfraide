@@ -11,6 +11,7 @@ import { DashboardPage } from '../pages/dashboard/dashboard';
 import { SettingsPage } from '../pages/settings/settings';
 import { ProductDetailsPage } from '../pages/product-details/product-details';
 import { RepairmanPage } from '../pages/repairman/repairman';
+import { AddobjectPage } from '../pages/addobject/addobject';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { RepairmanPage } from '../pages/repairman/repairman';
     DashboardPage,
     SettingsPage,
     ProductDetailsPage,
-    RepairmanPage
+    RepairmanPage,
+    AddobjectPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,8 @@ import { RepairmanPage } from '../pages/repairman/repairman';
     DashboardPage,
     SettingsPage,
     ProductDetailsPage,
-    RepairmanPage
+    RepairmanPage,
+    AddobjectPage
   ],
   providers: [
     StatusBar,
