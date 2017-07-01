@@ -1,18 +1,30 @@
 
 .content-md, .toolbar-background-md {
-  background-color: #5F7C8A;
+  background-color: color($colors, primary);
 }
 
 .header-md {
-  background-color: #5F7C8A;
+  background-color: color($colors, primary);
 
   &::after {
     background-image: none;
   }
 }
 
-.card-md {
-  background-color: #5F7C8A;
+.card-md.one {
+  background-color: color($colors, productsOne);
+}
+
+.card-md.two {
+  background-color: color($colors, productsTwo);
+}
+
+.card-md.three {
+  background-color: color($colors, productsThree);
+}
+
+.card-md.four {
+  background-color: color($colors, productsFour);
 }
 
 .loading {

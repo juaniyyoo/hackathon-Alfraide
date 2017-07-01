@@ -6,13 +6,8 @@
 -->
 <ion-header>
   <ion-navbar>
-    <ion-buttons start>
-      <button ion-button icon-only color="royal" [navPush]="settingsPage">
-        <ion-icon name="cog"></ion-icon>
-      </button>
-    </ion-buttons>
     <ion-title>Machine à laver</ion-title>
-    <ion-buttons end>
+    <ion-buttons end [navPush]="settingsPage">
       <button ion-button icon-only color="royal">
         <ion-icon name="person"></ion-icon>
       </button>
@@ -38,6 +33,27 @@
             <p><b>Info 2 : </b> details 2</p>
           </ion-item>
         </ion-list>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col col-12>
+        <h2>Astuces</h2>
+        <ion-slides pager loop="true" class="tips-slide">
+
+          <ion-slide>
+            <h2>Slide 1</h2>
+          </ion-slide>
+
+          <ion-slide>
+            <h2>Slide 2</h2>
+          </ion-slide>
+
+          <ion-slide>
+            <h2>Slide 3</h2>
+          </ion-slide>
+
+        </ion-slides>
       </ion-col>
     </ion-row>
   </ion-grid>
