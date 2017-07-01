@@ -6,7 +6,7 @@
 -->
 <ion-header>
   <ion-navbar>
-    <ion-title>Télévision</ion-title>
+    <ion-title>Chaudière</ion-title>
     <ion-buttons end [navPush]="settingsPage">
       <button ion-button icon-only color="royal">
         <ion-icon name="person"></ion-icon>
@@ -20,7 +20,7 @@
 <ion-content padding>
   <ion-card>
 
-    <img src="assets/images/logo-tv.png">
+    <img src="assets/images/logo-chaudiere.png" class="yellow">
     <ion-fab right top>
       <button ion-fab class="alert alert-danger">
         <ion-icon name="warning"></ion-icon>
@@ -30,18 +30,25 @@
     <ion-item>
       <ion-icon name="warning" item-left large ></ion-icon>
       <h2>Risques</h2>
-      <p>Condensateur en surchauffe <br>
-      Cable d'alimentation usé</p>
+      <p>La pompe du circuit de chauffage risque de fuire.</p>
     </ion-item>
 
     <ion-item>
       <ion-slides pager loop="true" class="tips-slide">
         <ion-slide>
-          <p>A l'achat, baissez tout de suite la luminosité pour gagner en longévité.</p>
+          <p>Tous les ans, vous devez faire l'entretien de votre chaudière.</p>
         </ion-slide>
 
         <ion-slide>
-          <p>Mettez votre télévision dans un coin frais à l'abri de la température.</p>
+          <p>Un mauvais entretien réduit le temps d'une chaudière de 1 à 3 ans.</p>
+        </ion-slide>
+
+        <ion-slide>
+          <p>La baisse du chauffage la nuit améliore sa durée de vie.</p>
+        </ion-slide>
+
+        <ion-slide>
+          <p>Pensez à mettre le mode hors gel durant vos absences.</p>
         </ion-slide>
 
       </ion-slides>
@@ -50,7 +57,7 @@
     <ion-item>
       <ion-icon name="information-circle" item-start large></ion-icon>
       <h2>Garantie : </h2>
-      <p>Vore garantie expire le 7 Août 2017</p>
+      <p>Votre garantie expire le 6 Mars 2020</p>
     </ion-item>
   </ion-card>
 
