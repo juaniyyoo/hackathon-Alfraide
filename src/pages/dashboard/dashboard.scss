@@ -1,3 +1,15 @@
 page-dashboard {
+  ion-col {
+    ion-card {
+      img {
+        margin: 15%;
+        width: 70%;
+      }
 
+      &.disabled {
+        border: 4px #5F7C8A dashed;
+        background-color: #90A4AE;
+      }
+    }
+  }
 }
