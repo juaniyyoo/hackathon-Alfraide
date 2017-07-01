@@ -8,4 +8,23 @@ page-dashboard ion-col ion-card.disabled {
   border: 4px #5F7C8A dashed;
   background-color: #90A4AE; }
 
+/* line 13, /Users/Nobodief/workspace/hackathon-Alfraide/src/pages/dashboard/dashboard.scss */
+page-dashboard ion-col ion-card span.alert {
+  position: absolute;
+  background: black;
+  padding: 4px 5px 4px 5px;
+  border-radius: 50px;
+  right: 5px;
+  top: 5px; }
+
+/* line 20, /Users/Nobodief/workspace/hackathon-Alfraide/src/pages/dashboard/dashboard.scss */
+page-dashboard ion-col ion-card span.alert.alert-danger {
+  background: red;
+  color: white; }
+
+/* line 24, /Users/Nobodief/workspace/hackathon-Alfraide/src/pages/dashboard/dashboard.scss */
+page-dashboard ion-col ion-card span.alert.alert-warning {
+  background: orange;
+  color: white; }
+
 /*# sourceMappingURL=dashboard.css.map */
