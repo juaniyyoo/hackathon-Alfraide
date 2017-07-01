@@ -1,26 +1,24 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { SettingsPage } from '../settings/settings';
 
 /**
- * Generated class for the DashboardPage page.
+ * Generated class for the SettingsPage page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
 @IonicPage()
 @Component({
-  selector: 'page-dashboard',
-  templateUrl: 'dashboard.html',
-  entryComponents: [ SettingsPage ]
+  selector: 'page-settings',
+  templateUrl: 'settings.html',
 })
-export class DashboardPage {
-  settingsPage = SettingsPage;
+export class SettingsPage {
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad DashboardPage');
+    console.log('ionViewDidLoad SettingsPage');
   }
 
 }

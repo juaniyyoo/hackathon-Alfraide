@@ -1,0 +1,26 @@
+/* line 2, /Users/Nobodief/workspace/hackathon-Alfraide/src/app/app.scss */
+.content-md, .toolbar-background-md {
+  background-color: #5F7C8A; }
+
+/* line 6, /Users/Nobodief/workspace/hackathon-Alfraide/src/app/app.scss */
+.header-md {
+  background-color: #5F7C8A; }
+  /* line 9, /Users/Nobodief/workspace/hackathon-Alfraide/src/app/app.scss */
+  .header-md::after {
+    background-image: none; }
+
+/* line 14, /Users/Nobodief/workspace/hackathon-Alfraide/src/app/app.scss */
+.card-md {
+  background-color: #5F7C8A; }
+
+/* line 18, /Users/Nobodief/workspace/hackathon-Alfraide/src/app/app.scss */
+.loading {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+
+/* line 24, /Users/Nobodief/workspace/hackathon-Alfraide/src/app/app.scss */
+.loading-content {
+  margin: auto; }
+
+/*# sourceMappingURL=app.css.map */

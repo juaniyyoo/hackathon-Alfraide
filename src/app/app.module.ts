@@ -8,12 +8,14 @@ import { ActionSheetController } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { DashboardPage } from '../pages/dashboard/dashboard';
+import { SettingsPage } from '../pages/settings/settings';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    DashboardPage
+    DashboardPage,
+    SettingsPage
   ],
   imports: [
     BrowserModule,
@@ -23,7 +25,8 @@ import { DashboardPage } from '../pages/dashboard/dashboard';
   entryComponents: [
     MyApp,
     HomePage,
-    DashboardPage
+    DashboardPage,
+    SettingsPage
   ],
   providers: [
     StatusBar,
@@ -32,33 +35,4 @@ import { DashboardPage } from '../pages/dashboard/dashboard';
   ]
 })
 export class AppModule {
-  constructor(public actionSheetCtrl: ActionSheetController) {
-  }
-
-    presentActionSheet() {
-    let actionSheet = this.actionSheetCtrl.create({
-      title: 'Modify your album',
-      buttons: [
-        {
-          text: 'Destructive',
-          role: 'destructive',
-          handler: () => {
-            console.log('Destructive clicked');
-          }
-        },{
-          text: 'Archive',
-          handler: () => {
-            console.log('Archive clicked');
-          }
-        },{
-          text: 'Cancel',
-          role: 'cancel',
-          handler: () => {
-            console.log('Cancel clicked');
-          }
-        }
-      ]
-    });
-    actionSheet.present();
-  }
 }
